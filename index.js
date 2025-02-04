@@ -53,3 +53,4 @@ app.use('/api', apiRoutes);
 app.listen(process.env.SERVER_PORT, () => {
     console.log("server is start", process.env.SERVER_PORT);
 })
+module.exports = app;
